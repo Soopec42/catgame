@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset = "utf-8">
+	<title> catsait </title>
+	<link rel="stylesheet" href="catt.css">
+</head>
+<body>
+	
+	<div class="zatemnenie">
+	    <script src="cotic.js"></script>
+		<img src="5e8a2c6788182d6713b79cd2068dd860.png" width = "350" id="cat"></img>
+		
+
+		<div>	 	
+			<button type="submit" onclick="vhod()" id='vh' value='vhod' class = "vihod"><font size ='6'>Вход</font></button>
+		</div>
+		<div class="knopki">
+			<div>
+				<button type="submit" onclick="vhod()" id='mi' value='minus' class = "minus"><img src="minus.png" id="immin"></img></button>
+			</div>
+			<div class="pocazatel">
+				<div class="sahar" id = "peremen"></div>
+			</div>
+			<div>
+				<button type="submit" onclick="vhod()" id='pl' value='plus' class = "minus"><img src="plus.png" id="implu"></img></button>
+			</div>
+		</div>
+	</div>
+	<div id="over"></div>
+	<div id="okno">
+		<div class="necr">
+			<div class="LiniaVhoda"> 	
+				<button type="submit" onclick="vhodpod()" id='vhodvibor' class = "vhodviborcl"><div class="TextVhodaTabl">Войти</div></button>
+				<button type="submit" onclick="regpod()" id='registrvibor' class = "vhodviborcl"><div class="TextVhodaTabl">Регистрация</div></button>
+			</div>
+			<button type="submit" onclick="crest()" id='cr' value='crest' class = "crest"><img src="crest.png" id="imcrest"></img></button>
+
+		</div>
+		<div id="osnvhod" class="osnova">
+			<input type="text" id="log" placeholder="Логин" class="login">
+			<input type="password" id="pas" placeholder="Пароль" class="login">
+			<p class="zabil"> Забыли пароль?</p>
+			<button type="submit" onclick="document.location.href='index.html'" id='knvh' value='knvh' class = "knopvh"><div class="textvihod">Войти</div></button>
+			<div class="otstup"></div>
+		</div>
+		<div id="osnreg" class="osnova">
+			<input type="text" id="log" placeholder="Логин" class="login">
+			<input type="text" id="gmail" placeholder="Почта" class="login">
+			<input type="password" id="pas" placeholder="Пароль" class="login">
+			<p class="zabil"> Забыли пароль?</p>
+			<button type="submit" onclick="document.location.href='index.html'" id='knvh' value='knvh' class = "knopvh"><div class="textvihod">Войти</div></button>
+			<div class="otstup"></div>
+		</div>
+	</div>
+</body>	
+</html>

@@ -1,0 +1,295 @@
+.minus {
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 150px;
+	width: 150px;
+	position: absolute;
+    border-radius: 50px;
+    border: medium solid black;
+    background-color: limegreen;
+}
+
+.pocazatel {
+	border-radius: 20px;
+	border: medium solid black;
+	background-color: #FF7400;
+	width: 100px;
+	height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vihod {
+	
+	display: flex;
+	position: absolute;
+	justify-content: center;
+	height: 50px;
+	width: 140px;
+	top: 2%;
+	background-color: orangered;
+	left: 15%;
+	transform: translate(-50%, 0px);
+    border-radius: 30px;
+    border: medium solid black;
+}
+
+.knopki {
+	position: absolute;
+	top: 20%;
+	left: 25%;
+	height: 100px;
+	width: 50%;
+	align-items: center;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#gmail {
+	margin: 20px 20px 0px 20px;
+}
+#log {
+	margin: 30px 20px 0px 20px;
+}
+#pas {
+	margin: 20px 20px 0px 20px;
+}
+#knvh {
+	margin: 25px 20px 0px 20px;	
+}
+.zabil {
+	margin: 7px 0px 0px 25px;
+	font-size: 20px;
+	font-family: Comic Sans Ms;
+}
+.textvihod {
+	font-size: 20px;
+	font-family: Comic Sans Ms;
+	font-weight: 800;
+}
+.knopvh {
+	width: calc(100% - 50px);
+	height: 50px;
+	border-radius: 20px;
+	display: block;
+	background-color: #FF0000;
+}
+.login {
+	background-color: #FFB273;
+	padding-left: 20px;
+	width: calc(100% - 75px);
+	height: 70px;
+	border-radius: 20px;
+	display: block;
+}
+
+.zatemnenie {
+	z-index: 1;
+}
+
+.LiniaVhoda {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-evenly;
+}
+
+#vhodvibor {
+	margin: 20px 0px 0px 20px;
+	border: 4px ridge transparent;
+	border-bottom: ridge #009999;
+}
+
+#osnreg {
+	display: none;
+}
+
+#osnvhod {
+
+
+}
+
+.osnova {
+
+
+}
+
+.vhodviborcl {
+	border: none;
+	background: none;
+}
+
+.TextVhodaTabl {
+	font-size: 25px;
+	font-family: Comic Sans Ms;
+	font-weight: 900;
+
+}
+
+
+.vhod {
+	
+	display: flex;
+	position: absolute;
+	justify-content: center;
+	height: 50px;
+	width: 140px;
+	top: 2%;
+	background-color: orangered;
+	left: calc(30% - 200px);
+    border-radius: 30px;
+    border: medium solid black;
+}
+#cr {
+	margin: 5px 0px 0px 0px;
+	width: 30px;
+	height: 30px;
+	border: none;
+	background: none;
+	
+}
+#mi {
+	transform: translate(-50%, -50%);
+}
+#pl {
+	transform: translate(-50%, -50%);
+}
+#min {
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top: 20%;
+    left: 17%;
+    border: 0;
+}
+
+#peremen {
+	font-size: 28px;
+	font-family: Comic Sans Ms;
+	font-weight: 800;
+}
+
+#postpere {
+	font-size: 28px;
+	font-family: Comic Sans Ms;
+	font-weight: 800;
+}
+
+#plu {
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top: 20%;
+    left: 17%;
+    border: 0;
+
+}
+input[placeholder] {
+	
+	font-size: 30px;
+	font-family: Comic Sans MS;
+
+
+}
+
+#cat {
+
+	pointer-events: none;
+	position: absolute;
+	top: 39%;
+	transform: translate(-50%, 0px);
+    left: 50%;
+    
+}
+
+body {
+	background-color: orange;
+}
+
+#container { 
+    width: 100%; height: 100%; margin: 0; padding: 0; 
+} 
+#vicno {
+	display: flex;
+	text-decoration: none;
+	font-size: 34px;
+
+}
+#vhcno {
+	display: flex;
+	text-decoration: none;
+	font-size: 34px;
+
+}
+
+#immin {
+	position: absolute;
+	display: flex;
+	width: 90px;
+	height: 50px;
+}
+
+#implu {
+	position: absolute;
+	display: flex;
+	width: 80px;
+	height: 70px;
+}
+
+#registrvibor {
+	margin: 20px 0px 0px 0px;
+	border: 4px ridge transparent;
+}
+
+.otstup {
+	height: 20px;
+}
+
+.necr {
+	display: flex;
+	justify-content: flex-end;
+}
+#imcrest {
+	margin: 0px 5px 0px 0px;
+	display: flex;
+	justify-self: flex-end;
+	width: 20px;
+	height: 20px;
+
+}
+
+#okno {
+	display: flex;
+	opacity: 0;
+	position: absolute;
+	flex-direction: column;
+	background-color: #FF7400;
+	transform: translate(-50%, 0px); 
+	left: 50%;
+	width: 33%;
+	top: 16%;
+	border-radius: 5%;
+	z-index: -1;
+	height: max-content;
+	transition: 0.3s;
+}
+
+
+#over {
+	display: flex;
+	opacity: 0;
+	background-color: #000; 
+	height: 100%;
+	left: 0; 
+	
+	position: fixed; 
+	top: 0; 
+	width: 100%; 
+	z-index: -1;
+	transition: 0.1s;
+}
