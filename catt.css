@@ -103,19 +103,12 @@
 	border-bottom: ridge #009999;
 }
 
-#osnreg {
-	display: none;
+#vhodvibordo {
+	margin: 20px 0px 0px 20px;
+	border: 4px ridge transparent;
 }
 
-#osnvhod {
 
-
-}
-
-.osnova {
-
-
-}
 
 .vhodviborcl {
 	border: none;
@@ -244,8 +237,12 @@ body {
 #registrvibor {
 	margin: 20px 0px 0px 0px;
 	border: 4px ridge transparent;
+	border-bottom: ridge #009999;
 }
-
+#registrvibordo {
+	margin: 20px 0px 0px 0px;
+	border: 4px ridge transparent;
+}
 .otstup {
 	height: 20px;
 }
@@ -265,31 +262,37 @@ body {
 
 #okno {
 	display: flex;
-	opacity: 0;
 	position: absolute;
 	flex-direction: column;
 	background-color: #FF7400;
 	transform: translate(-50%, 0px); 
 	left: 50%;
-	width: 33%;
-	top: 16%;
+	width: 35%;
+	top: 15%;
 	border-radius: 5%;
-	z-index: -1;
 	height: max-content;
 	transition: 0.3s;
 }
 
-
-#over {
+#history {
 	display: flex;
-	opacity: 0;
-	background-color: #000; 
-	height: 100%;
-	left: 0; 
-	
-	position: fixed; 
-	top: 0; 
-	width: 100%; 
-	z-index: -1;
-	transition: 0.1s;
+	position: absolute;
+	flex-direction: column;
+	background-color: #FF7400;
+	transform: translate(-50%, 0px); 
+	left: 50%;
+	width: 55%;
+	top: 15%;
+	border-radius: 4%;
+	height: max-content;
+	transition: 0.3s;
+}
+
+#hist {
+	font-family: Comic Sans MS;
+	font-size: 25px;
+	margin: 10px 10px 10px 10px;
+}
+#start {
+	margin: 0 auto;
 }

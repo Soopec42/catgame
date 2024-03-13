@@ -243,10 +243,7 @@ function obroboca() {
 
 }
 function vhod() {
-	okno.style.zIndex = "1000";
-	over.style.zIndex = "100";
-	over.style.opacity = "0.5";
-	setTimeout(postvhod, 100)
+	
 }
 
 function postvhod() {
